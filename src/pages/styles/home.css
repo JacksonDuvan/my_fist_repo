@@ -1,0 +1,23 @@
+.container{
+    background-color: #21C08B;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+.link{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+.btn{padding: 5px;
+    padding-top: 30px;
+}
+.link_container{
+    display: flex;
+    margin-right: 20px;
+}
+
