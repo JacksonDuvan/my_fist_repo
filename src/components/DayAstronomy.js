@@ -3,6 +3,7 @@ import './styles/DayAstronomy.css';
 // import PageLoading from './PageLoading';
 import { connect } from 'react-redux';
 import * as dataActions from '../actions/dataActions'
+import Home from '../pages/Home'
 // import img from '../images/starts2.jpg';
 
 
