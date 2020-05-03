@@ -3,9 +3,7 @@ import './styles/DayAstronomy.css';
 // import PageLoading from './PageLoading';
 import { connect } from 'react-redux';
 import * as dataActions from '../actions/dataActions'
-import Home from '../pages/Home'
 // import img from '../images/starts2.jpg';
-
 
 class DayAstronomy extends React.Component{
 
@@ -15,11 +13,8 @@ class DayAstronomy extends React.Component{
 	// };
     
     componentDidMount(){
-		if(!this.props.data.length){
-            this.props.traerDatos()
-		}
+    	this.props.traerDatos()
 	};
-
 	
     // fetchData = async () =>{
     // 	this.setState({ loading: true })
